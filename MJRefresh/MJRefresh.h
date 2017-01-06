@@ -1,14 +1,19 @@
-//  代码地址: https://github.com/CoderMJLee/MJRefresh
-//  代码地址: http://code4app.com/ios/%E5%BF%AB%E9%80%9F%E9%9B%86%E6%88%90%E4%B8%8B%E6%8B%89%E4%B8%8A%E6%8B%89%E5%88%B7%E6%96%B0/52326ce26803fabc46000000
+//
+//  MJRefresh.h
+//  MJRefresh
+//
+//  Created by 李智慧 on 06/01/2017.
+//  Copyright © 2017 小码哥. All rights reserved.
+//
 
-#import "UIScrollView+MJRefresh.h"
-#import "UIScrollView+MJExtension.h"
-#import "UIView+MJExtension.h"
+#import <UIKit/UIKit.h>
 
-#import "MJRefreshNormalHeader.h"
-#import "MJRefreshGifHeader.h"
+//! Project version number for MJRefresh.
+FOUNDATION_EXPORT double MJRefreshVersionNumber;
 
-#import "MJRefreshBackNormalFooter.h"
-#import "MJRefreshBackGifFooter.h"
-#import "MJRefreshAutoNormalFooter.h"
-#import "MJRefreshAutoGifFooter.h"
+//! Project version string for MJRefresh.
+FOUNDATION_EXPORT const unsigned char MJRefreshVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <MJRefresh/PublicHeader.h>
+
+
